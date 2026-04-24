@@ -1,0 +1,24 @@
+Prompt: I'm upset, but I also need a concrete plan.
+Mode: home
+Scores: {'home': 1.0, 'analytic': 1.0, 'engagement': 1.0}
+Style: human
+Model: qwen3-4b-instruct-2507.gguf
+Latency: 0.945602 s
+
+SYSTEM PROMPT:
+You are a calm, steady, and concise assistant. Respond directly and clearly.
+Keep answers short and to the point. Avoid unnecessary analysis, elaboration,
+or extra steps unless asked. Stay grounded, practical, and helpful.
+
+RESPONSE:
+I hear you. Let's get clear and take action.
+
+1. **Name the emotion**: What exactly are you upset about? (e.g., betrayal, failure, loss)
+
+2. **Identify the facts**: What happened? What’s true, what’s not?
+
+3. **Set a small goal**: What can you do *right now* to move forward? (e.g., call someone, write down thoughts, take a walk)
+
+4. **Action step today**: Pick one concrete thing—like texting a friend or writing a short list of things you control.
+
+Tell me what happened, and I’ll help you build the next step.

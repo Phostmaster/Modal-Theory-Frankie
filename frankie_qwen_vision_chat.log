@@ -1,0 +1,917 @@
+
+=== NEW SESSION v19 - 2026-03-16 09:34:08 ===
+
+[09:34:08] Qwen (user): Today is Sunday.
+[09:34:08] Error: FrankieLLMBridge.respond() got an unexpected keyword argument 'image_path'
+
+=== SESSION END ===
+
+=== NEW SESSION v19 - 2026-03-16 09:35:36 ===
+
+[09:35:36] Qwen (user): Today is Sunday.
+[09:35:36] Error: FrankieLLMBridge.respond() got an unexpected keyword argument 'image_path'
+[09:36:29] Qwen (user): describe the image C:\Users\Peter\Desktop\frankie_images|red rose.jpg
+[09:36:29] Error: FrankieLLMBridge.respond() got an unexpected keyword argument 'image_path'
+[09:37:02] Qwen (user): describe the image frankie_images\red rose.jpg
+[09:37:02] Error: FrankieLLMBridge.respond() got an unexpected keyword argument 'image_path'
+[09:37:26] Qwen (user): describe the image C:\Users\Peter\Desktop\frankie_images\red rose.jpg
+[09:37:26] Error: FrankieLLMBridge.respond() got an unexpected keyword argument 'image_path'
+[09:48:20] Qwen (user): exit
+[09:48:20] Error: FrankieLLMBridge.respond() got an unexpected keyword argument 'image_path'
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-16 10:45:09 ===
+
+[10:45:28] User: hello frankie
+[10:45:39] Frankie (Pond own): Nice to see you again.
+   → Pond chose its own reply (creative! recall: 0.034)
+[10:45:39] mode=greeting_reply slot=2 recall=0.034
+[10:46:45] User: What can you see here?
+[10:46:54] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.253)
+[10:46:54] mode=open_reply slot=0 recall=0.253
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-16 10:54:30 ===
+
+[10:54:43] User: What can you see here?
+[10:54:52] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.255)
+[10:54:52] mode=open_reply slot=0 recall=0.255
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-16 11:00:01 ===
+
+[11:00:24] User: What can you see here? [image: kitchen.jpg]
+[11:00:27] Vision desc: None
+[11:00:38] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.258)
+[11:00:38] mode=open_reply slot=0 recall=0.258
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-16 11:01:23 ===
+
+[11:01:30] User: What can you see here? [image: kitchen.jpg]
+[11:01:37] Vision desc: - A red plastic cup is centered in the image. - The cup has a white plastic lid. - The cup has vertical ridges along its exterior. - The background is plain white. - The cup casts a soft shadow
+[11:01:50] Frankie (Pond own): I see a red plastic cup in the center.
+   → Pond chose its own reply (creative! recall: 0.255)
+[11:01:50] Vision used: - A red plastic cup is centered in the image. - The cup has a white plastic lid. - The cup has vertical ridges along its exterior. - The background is plain white. - The cup casts a soft shadow
+[11:01:50] mode=vision_reply slot=0 recall=0.255
+[11:09:43] User: my name is Peter
+[11:09:54] Frankie (Pond own): I think your name is Peter.
+   → Pond chose its own reply (creative! recall: 0.119)
+[11:09:54] mode=identity_self_mark slot=0 recall=0.119
+[11:10:18] User: Today is Monday
+[11:10:26] Frankie (Pond own): I think today's Monday.
+   → Pond chose its own reply (creative! recall: 0.132)
+[11:10:26] mode=time_reply slot=3 recall=0.132
+[11:11:14] User: What can you see here? [image: red-rose.jpg]
+[11:11:18] Vision desc: - A single red rose is centered in the image. - The rose is in full bloom, with petals tightly layered and curled at the edges. - The stem is green and extends vertically downward from the base of the
+[11:11:27] Frankie (Pond own): I see a red rose blooming right there.
+   → Pond chose its own reply (creative! recall: 0.270)
+[11:11:27] Vision used: - A single red rose is centered in the image. - The rose is in full bloom, with petals tightly layered and curled at the edges. - The stem is green and extends vertically downward from the base of the
+[11:11:27] mode=vision_reply slot=0 recall=0.270
+[11:12:02] User: What can you see here? [image: carrot.jpg]
+[11:12:06] Vision desc: - Object: A single carrot. - Position: The carrot is oriented diagonally, with its tapered end pointing toward the upper right and its root end (where the green top is attached) toward the lower left. - Color: The carrot body
+[11:12:16] Frankie (Pond own): I see a carrot, slanting just right — root end down left, tip pointing up-right.
+   → Pond chose its own reply (creative! recall: 0.248)
+[11:12:16] Vision used: - Object: A single carrot. - Position: The carrot is oriented diagonally, with its tapered end pointing toward the upper right and its root end (where the green top is attached) toward the lower left. - Color: The carrot body
+[11:12:16] mode=vision_reply slot=0 recall=0.248
+[11:12:34] User: What can you see here? [image: apple.jpg]
+[11:12:38] Vision desc: - Object: A single apple. - Position: Centered in the frame, standing upright on a flat surface. - Colors: The apple has a skin that is predominantly red with yellowish-green undertones. The red coloration is concentrated on the upper half
+[11:12:48] Frankie (Pond own): I see a single apple, standing upright in the center.
+   → Pond chose its own reply (creative! recall: 0.268)
+[11:12:48] Vision used: - Object: A single apple. - Position: Centered in the frame, standing upright on a flat surface. - Colors: The apple has a skin that is predominantly red with yellowish-green undertones. The red coloration is concentrated on the upper half
+[11:12:48] mode=vision_reply slot=0 recall=0.268
+[11:12:58] User: What can you see here? [image: pretzel.jpg]
+[11:13:02] Vision desc: - Object: A single pretzel. - Shape: Classic twisted knot shape, with two loops and a central cross-section. - Color: Golden-brown, with darker brown areas where the dough has been twisted and baked, and lighter brown areas. Some white specks
+[11:13:12] Frankie (Pond own): I see a pretzel — classic twist, golden-brown with some dark spots and little white specks.
+   → Pond chose its own reply (creative! recall: 0.255)
+[11:13:12] Vision used: - Object: A single pretzel. - Shape: Classic twisted knot shape, with two loops and a central cross-section. - Color: Golden-brown, with darker brown areas where the dough has been twisted and baked, and lighter brown areas. Some white specks
+[11:13:12] mode=vision_reply slot=0 recall=0.255
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-16 11:39:34 ===
+
+[11:40:00] User: What is my name?
+[11:40:12] Frankie (Pond own): I think your name is Peter.
+   → Pond chose its own reply (creative! recall: 0.443)
+[11:40:12] mode=identity_self_reply slot=0 recall=0.443
+[11:40:33] User: Correct. My name is Peter. What is your's?
+[11:40:43] Frankie (Pond own): Feels just right, Peter.
+   → Pond chose its own reply (creative! recall: 0.275)
+[11:40:43] mode=identity_self_mark slot=0 recall=0.275
+[11:40:58] User: what is your name?
+[11:41:07] Frankie (Pond own): Frankie here — no fancy titles.
+   → Pond chose its own reply (creative! recall: 0.349)
+[11:41:07] mode=identity_other_reply slot=1 recall=0.349
+[11:41:30] User: Not even Mr or Mrs?
+[11:41:39] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.316)
+[11:41:39] mode=vision_reply slot=0 recall=0.316
+[11:42:01] User: What day is it today?
+[11:42:13] Frankie (Pond own): I think today is Saturday.
+   → Pond chose its own reply (creative! recall: 0.412)
+[11:42:13] mode=time_reply slot=3 recall=0.412
+[11:42:25] User: No. Today is Monday
+[11:42:33] Frankie (Pond own): I think today's Monday.
+   → Pond chose its own reply (creative! recall: 0.109)
+[11:42:33] mode=time_reply slot=3 recall=0.109
+[11:42:53] User: What can you see here? [image: pretzel.jpg]
+[11:42:53] Error: 'FrankieLLMBridge' object has no attribute 'get_vision_description'
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-16 11:45:58 ===
+
+[11:46:08] User: What can you see here? [image: pretzel.jpg]
+[11:46:12] Vision desc: Object: A single pretzel. Shape: Traditional twisted knot shape, with two loops and a central cross-over. Color: Golden-brown with lighter, slightly whitish areas, particularly
+[11:46:23] Frankie (Pond own): I see a pretzel — classic twist, golden-brown with a little bit of white peeking through.
+   → Pond chose its own reply (creative! recall: 0.256)
+[11:46:23] Vision used: Object: A single pretzel. Shape: Traditional twisted knot shape, with two loops and a central cross-over. Color: Golden-brown with lighter, slightly whitish areas, particularly
+[11:46:23] mode=vision_reply slot=0 recall=0.256
+[11:57:09] User: What can you see here?
+[11:57:18] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.282)
+[11:57:18] mode=vision_reply slot=0 recall=0.282
+[11:57:47] User: What can you see here?
+[11:58:02] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.282)
+[11:58:02] mode=vision_reply slot=0 recall=0.282
+[11:58:20] User: What can you see here? [image: yellow-umbrella.png]
+[11:58:23] Vision desc: Object: An umbrella. Position: Centered in the image. Colors: Canopy: Yellow with a gradient, lighter at the top and darker at the bottom. Shaft
+[11:58:34] Frankie (Pond own): I see a yellow umbrella, glowing just right in the center.
+   → Pond chose its own reply (creative! recall: 0.262)
+[11:58:34] Vision used: Object: An umbrella. Position: Centered in the image. Colors: Canopy: Yellow with a gradient, lighter at the top and darker at the bottom. Shaft
+[11:58:34] mode=vision_reply slot=0 recall=0.262
+[11:59:09] User: What can you see here? [image: kite.jpg]
+[11:59:13] Vision desc: Object: A diamond-shaped kite. Position: The kite is centered in the image, suspended against a plain white background. Colors: The kite's surface is composed
+[11:59:24] Frankie (Pond own): I see a diamond-shaped kite right in the center.
+   → Pond chose its own reply (creative! recall: 0.252)
+[11:59:24] Vision used: Object: A diamond-shaped kite. Position: The kite is centered in the image, suspended against a plain white background. Colors: The kite's surface is composed
+[11:59:24] mode=vision_reply slot=0 recall=0.252
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-16 12:02:01 ===
+
+[12:02:11] User: What can you see here? [image: kite.jpg]
+[12:02:13] Vision desc: None
+[12:02:25] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.285)
+[12:02:25] mode=open_reply slot=0 recall=0.285
+[12:03:00] User: What can you see here? [image: kite.jpg]
+[12:03:02] Vision desc: None
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-16 12:03:09 ===
+
+[12:03:11] User: What can you see here? [image: kite.jpg]
+[12:03:15] Vision desc: Object: A kite. Shape: Diamond-shaped. Colors: The kite has a pattern of triangular sections. The top section is
+[12:03:26] Frankie (Pond own): I see a kite — diamond-shaped, with triangles in the top section.
+   → Pond chose its own reply (creative! recall: 0.266)
+[12:03:26] Vision used: Object: A kite. Shape: Diamond-shaped. Colors: The kite has a pattern of triangular sections. The top section is
+[12:03:26] mode=vision_reply slot=0 recall=0.266
+[12:03:55] User: What can you see here? [image: red-rose.jpg]
+[12:03:59] Vision desc: A single red rose is centered in the image. The rose is fully bloomed, with petals forming a
+[12:04:13] Frankie (Pond own): I see a single red rose, blooming right there.
+   → Pond chose its own reply (creative! recall: 0.284)
+[12:04:13] Vision used: A single red rose is centered in the image. The rose is fully bloomed, with petals forming a
+[12:04:13] mode=vision_reply slot=0 recall=0.284
+[12:09:24] User: What can you see here? [image: hands.jpg]
+[12:09:31] Vision desc: A robotic hand on the left side of the image. It is primarily white with silver-colored joints. The
+[12:09:41] Frankie (Pond own): I see a white robotic hand with silver joints on the left.
+   → Pond chose its own reply (creative! recall: 0.273)
+[12:09:41] Vision used: A robotic hand on the left side of the image. It is primarily white with silver-colored joints. The
+[12:09:41] mode=vision_reply slot=0 recall=0.273
+[12:09:53] User: What can you see here? [image: room.jpg]
+[12:09:58] Vision desc: A light gray sofa with blue and brown throw pillows is positioned against the right wall, beneath a
+[12:10:11] Frankie (Pond own): I see a light gray sofa with blue and brown throw pillows.
+   → Pond chose its own reply (creative! recall: 0.278)
+[12:10:11] Vision used: A light gray sofa with blue and brown throw pillows is positioned against the right wall, beneath a
+[12:10:11] mode=vision_reply slot=0 recall=0.278
+[12:10:21] User: What can you see here? [image: smile.jpg]
+[12:10:28] Vision desc: The image is a black-and-white close-up photograph. It shows the lower portion of a human face, specifically the
+[12:10:39] Frankie (Pond own): I see a close-up of a face, lower half, black and white.
+   → Pond chose its own reply (creative! recall: 0.257)
+[12:10:39] Vision used: The image is a black-and-white close-up photograph. It shows the lower portion of a human face, specifically the
+[12:10:39] mode=vision_reply slot=0 recall=0.257
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-16 12:22:39 ===
+
+[12:22:50] User: What can you see here? [image: smile.jpg]
+[12:22:57] Vision desc: The image is a black-and-white close-up photograph. It shows the lower half of a person's face, focusing on the mouth and nose.
+[12:23:08] Frankie (Pond own): The face is clear, just lower half — like a quiet moment caught in shadow.
+   → Pond chose its own reply (creative! recall: 0.257)
+[12:23:08] Vision used: The image is a black-and-white close-up photograph. It shows the lower half of a person's face, focusing on the mouth and nose.
+[12:23:08] mode=vision_reply slot=0 recall=0.257
+[12:23:32] User: What can you see here? [image: hands.jpg]
+[12:23:39] Vision desc: Object 1: A robotic hand. It is positioned on the left side of the image, extending towards the right.
+[12:23:49] Frankie (Pond own): I see a hand on the left, reaching toward the right.
+   → Pond chose its own reply (creative! recall: 0.268)
+[12:23:49] Vision used: Object 1: A robotic hand. It is positioned on the left side of the image, extending towards the right.
+[12:23:49] mode=vision_reply slot=0 recall=0.268
+[12:24:25] User: What can you see here? [image: room.jpg]
+[12:24:30] Vision desc: A light gray sofa with blue and brown throw pillows is positioned against the right wall, beneath a large window with white frames and gray curtains. A round, wooden coffee table with.
+[12:24:40] Frankie (Pond own): I see that sofa with the blue and brown pillows, cozy against the wall.
+   → Pond chose its own reply (creative! recall: 0.266)
+[12:24:40] Vision used: A light gray sofa with blue and brown throw pillows is positioned against the right wall, beneath a large window with white frames and gray curtains. A round, wooden coffee table with.
+[12:24:40] mode=vision_reply slot=0 recall=0.266
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-16 12:51:17 ===
+
+[12:51:54] User: What can you see here? [image: red-rose.jpg]
+[12:51:58] Vision desc: A single red rose with a green stem and two green leaves stands upright against a plain white background. The rose’s petals are tightly curled, and the stem has small thorns visible.
+[12:52:10] Frankie (Pond own): I see a red rose, curled tight like it’s holding its breath.
+   → Pond chose its own reply (creative! recall: 0.293)
+[12:52:10] Vision used: A single red rose with a green stem and two green leaves stands upright against a plain white background. The rose’s petals are tightly curled, and the stem has small thorns visible.
+[12:52:10] mode=vision_reply slot=0 recall=0.293
+[12:52:36] User: What can you see here? [image: carrot.jpg]
+[12:52:39] Vision desc: A single orange carrot with green leafy tops rests diagonally on a plain white background, its tapered shape pointing right, showing natural surface markings and a brown root end.
+[12:52:50] Frankie (Pond own): There’s one orange carrot, leafy top up, resting on white.
+   → Pond chose its own reply (creative! recall: 0.286)
+[12:52:50] Vision used: A single orange carrot with green leafy tops rests diagonally on a plain white background, its tapered shape pointing right, showing natural surface markings and a brown root end.
+[12:52:50] mode=vision_reply slot=0 recall=0.286
+[12:53:17] User: What can you see here? [image: apple.jpg]
+[12:53:20] Vision desc: A single apple with a red and yellow mottled skin, a short brown stem at its top, sits centered against a plain white background, casting a soft shadow beneath it.
+[12:53:32] Frankie (Pond own): I see a red-and-yellow apple, stem pointing up, shadow soft beneath it.
+   → Pond chose its own reply (creative! recall: 0.264)
+[12:53:32] Vision used: A single apple with a red and yellow mottled skin, a short brown stem at its top, sits centered against a plain white background, casting a soft shadow beneath it.
+[12:53:32] mode=vision_reply slot=0 recall=0.264
+[12:53:45] User: What can you see here? [image: pretzel.jpg]
+[12:53:48] Vision desc: A single, classic pretzel with a golden-brown, slightly glossy surface and scattered white salt crystals, positioned centrally against a plain white background, showing its characteristic twisted knot shape.
+[12:54:00] Frankie (Pond own): I see a pretzel, golden-brown and slightly shiny, with little salt crystals scattered across it.
+   → Pond chose its own reply (creative! recall: 0.296)
+[12:54:00] Vision used: A single, classic pretzel with a golden-brown, slightly glossy surface and scattered white salt crystals, positioned centrally against a plain white background, showing its characteristic twisted knot shape.
+[12:54:00] mode=vision_reply slot=0 recall=0.296
+[12:54:17] User: What can you see here? [image: room.jpg]
+[12:54:21] Vision desc: A modern living room features a light gray sofa with blue and brown cushions, a round wooden coffee table, and a gray tufted armchair. A black chandelier hangs above, and large windows.
+[12:54:32] Frankie (Pond own): Oh, the chandelier — gives off a quiet glow, doesn’t it?
+   → Pond chose its own reply (creative! recall: 0.276)
+[12:54:32] Vision used: A modern living room features a light gray sofa with blue and brown cushions, a round wooden coffee table, and a gray tufted armchair. A black chandelier hangs above, and large windows.
+[12:54:32] mode=vision_reply slot=0 recall=0.276
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-16 13:00:38 ===
+
+[13:00:55] User: What can you see here? [image: red-rose.jpg]
+[13:00:59] Vision desc: A single red rose with a green stem and two green leaves stands upright against a plain white background. The rose is fully bloomed, its petals layered and curled at the edges.
+[13:01:09] Frankie (Pond own): I see a red rose, standing tall with a green stem and two leaves.
+   → Pond chose its own reply (creative! recall: 0.300)
+[13:01:09] Vision used: A single red rose with a green stem and two green leaves stands upright against a plain white background. The rose is fully bloomed, its petals layered and curled at the edges.
+[13:01:09] mode=vision_reply slot=0 recall=0.300
+[13:01:19] User: What can you see here? [image: carrot.jpg]
+[13:01:22] Vision desc: A single, orange carrot with a tapered shape lies diagonally, its green leafy top pointing left. The carrot’s surface shows faint white vertical lines and a brownish root end.
+[13:01:33] Frankie (Pond own): I see a carrot, orange and a bit slanted.
+   → Pond chose its own reply (creative! recall: 0.293)
+[13:01:33] Vision used: A single, orange carrot with a tapered shape lies diagonally, its green leafy top pointing left. The carrot’s surface shows faint white vertical lines and a brownish root end.
+[13:01:33] mode=vision_reply slot=0 recall=0.293
+[13:02:41] User: What can you see here? [image: apple.jpg]
+[13:02:45] Vision desc: A single apple with a red and yellow mottled skin, a short brown stem at its top, rests on a plain white surface, casting a soft shadow beneath it.
+[13:02:59] Frankie (Pond own): I see a red-and-yellow apple, stem tucked in, resting on white and casting that soft shadow.
+   → Pond chose its own reply (creative! recall: 0.298)
+[13:02:59] Vision used: A single apple with a red and yellow mottled skin, a short brown stem at its top, rests on a plain white surface, casting a soft shadow beneath it.
+[13:02:59] mode=vision_reply slot=0 recall=0.298
+[13:03:19] User: What can you see here? [image: pretzel.jpg]
+[13:03:23] Vision desc: A single, golden-brown pretzel with a glossy surface and scattered white salt crystals sits centered against a plain white background, its classic twisted knot shape clearly defined.
+[13:03:33] Frankie (Pond own): I see a pretzel, golden-brown and shiny, with little salt crystals scattered across it.
+   → Pond chose its own reply (creative! recall: 0.301)
+[13:03:33] Vision used: A single, golden-brown pretzel with a glossy surface and scattered white salt crystals sits centered against a plain white background, its classic twisted knot shape clearly defined.
+[13:03:33] mode=vision_reply slot=0 recall=0.301
+[13:03:46] User: What can you see here? [image: room.jpg]
+[13:03:50] Vision desc: A modern living room with light gray walls, wooden floors, and a beige sofa adorned with blue and brown cushions. A round wooden coffee table sits on a light gray rug beneath.
+[13:04:01] Frankie (Pond own): I see a cozy living room with soft gray walls and warm wood floors.
+   → Pond chose its own reply (creative! recall: 0.276)
+[13:04:01] Vision used: A modern living room with light gray walls, wooden floors, and a beige sofa adorned with blue and brown cushions. A round wooden coffee table sits on a light gray rug beneath.
+[13:04:01] mode=vision_reply slot=0 recall=0.276
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-16 13:48:42 ===
+
+[13:48:49] User: Hello frankie
+[13:48:58] Frankie (Pond own): I'm Frankie — happy to chat.
+   → Pond chose its own reply (creative! recall: 0.037)
+[13:48:58] mode=greeting_reply slot=2 recall=0.037
+[13:49:17] User: Good. My name is Peter
+[13:49:27] Frankie (Pond own): I think your name is Peter.
+   → Pond chose its own reply (creative! recall: 0.098)
+[13:49:27] mode=identity_self_mark slot=1 recall=0.098
+[13:49:45] User: Today is Monday
+[13:49:57] Frankie (Pond own): I think today’s Monday.
+   → Pond chose its own reply (creative! recall: 0.131)
+[13:49:57] mode=time_reply slot=3 recall=0.131
+[13:50:17] User: Have you seen an apple today?
+[13:50:25] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.328)
+[13:50:25] mode=open_reply slot=0 recall=0.328
+[13:50:45] User: Have you seen a carrot?
+[13:50:58] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.294)
+[13:50:58] mode=open_reply slot=0 recall=0.294
+[13:51:10] User: would you like to see a carrot?
+[13:51:23] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.280)
+[13:51:23] mode=open_reply slot=0 recall=0.280
+[13:51:49] User: this is a carrot [image: carrot.jpg]
+[13:51:52] Vision desc: A single orange carrot with green leafy stems protrudes from its top, angled slightly to the right, set against a plain white background with faint watermark text at the bottom.
+[13:52:00] Frankie (Pond own): A single carrot, leafy and warm in the light.
+   → Pond chose its own reply (creative! recall: 0.000)
+[13:52:00] Vision used: A single orange carrot with green leafy stems protrudes from its top, angled slightly to the right, set against a plain white background with faint watermark text at the bottom.
+[13:52:00] mode=vision_reply slot=-1 recall=0.000
+[13:52:24] User: what colour is the carrot?
+[13:52:32] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.291)
+[13:52:32] mode=open_reply slot=0 recall=0.291
+[13:53:00] User: describe a carrot for me.
+[13:53:08] Frankie (Pond own): Feels just right — like a warm bite of the morning.
+   → Pond chose its own reply (creative! recall: 0.161)
+[13:53:08] mode=open_reply slot=0 recall=0.161
+[13:53:36] User: like a warm bite - I like that.
+[13:53:44] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.175)
+[13:53:44] mode=open_reply slot=0 recall=0.175
+[13:54:09] User: was the carrot warm because of its colour?
+[13:54:17] Frankie (fallback): Hmm, warm carrot? That's a good one.
+   → Pond used fallback (recall: 0.308)
+[13:54:17] mode=open_reply slot=0 recall=0.308
+[13:54:32] User: what else is warm?
+[13:54:40] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.316)
+[13:54:40] mode=open_reply slot=0 recall=0.316
+[13:55:04] User: did the carrot have any green bits?
+[13:55:11] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.322)
+[13:55:11] mode=open_reply slot=0 recall=0.322
+[13:55:26] User: what is my name?
+[13:55:35] Frankie (Pond own): Peter, huh? That rings a bell.
+   → Pond chose its own reply (creative! recall: 0.457)
+[13:55:35] mode=identity_self_reply slot=0 recall=0.457
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-16 14:47:11 ===
+
+[14:47:24] User: Hello frankie
+[14:47:34] Frankie (Pond own): I'm Frankie — happy to chat.
+   → Pond chose its own reply (creative! recall: 0.037)
+[14:47:34] mode=greeting_reply slot=2 recall=0.037
+[14:47:42] User: My name is Peter
+[14:47:52] Frankie (Pond own): I think your name is Peter.
+   → Pond chose its own reply (creative! recall: 0.126)
+[14:47:52] mode=identity_self_mark slot=1 recall=0.126
+[14:48:11] User: It is Peter. Today is Monday
+[14:48:19] Frankie (Pond own): I think today is Monday.
+   → Pond chose its own reply (creative! recall: 0.092)
+[14:48:19] mode=time_reply slot=3 recall=0.092
+[14:49:37] User: Whis this? [image: apple.jpg]
+[14:49:41] Vision desc: A single apple with red and yellow skin, a short brown stem, and a visible calyx, sits centered against a plain white background, casting a soft shadow beneath it.
+[14:49:52] Frankie (Pond own): A perfect little red-yellow slice of sunshine.
+   → Pond chose its own reply (creative! recall: 0.271)
+[14:49:52] Vision used: A single apple with red and yellow skin, a short brown stem, and a visible calyx, sits centered against a plain white background, casting a soft shadow beneath it.
+[14:49:52] mode=vision_reply slot=0 recall=0.271
+[14:50:16] User: are you describing an apple?
+[14:50:24] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.305)
+[14:50:24] mode=open_reply slot=0 recall=0.305
+[14:50:46] User: what is this? [image: carrot.jpg]
+[14:50:50] Vision desc: A single, orange carrot with a tapered shape lies diagonally, its green leafy top pointing left. The carrot’s surface has faint white vertical lines.
+[14:51:04] Frankie (Pond own): Oh, that’s a neat carrot.
+   → Pond chose its own reply (creative! recall: 0.293)
+[14:51:04] Vision used: A single, orange carrot with a tapered shape lies diagonally, its green leafy top pointing left. The carrot’s surface has faint white vertical lines.
+[14:51:04] mode=vision_reply slot=0 recall=0.293
+[14:52:12] User: a meat carrot? I believe carrots are vegitables!
+[14:52:20] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.334)
+[14:52:20] mode=open_reply slot=0 recall=0.334
+[14:52:39] User: what is this [image: kitchen.jpg]
+[14:52:42] Vision desc: A red plastic cup with a white rim sits upright on a plain white surface, its cylindrical body featuring horizontal ridges, and a faint watermark reading “shutterstock.com” and “2626086775” at the bottom.
+[14:52:51] Frankie (Pond own): I see a red cup with white edges standing tall on plain white.
+   → Pond chose its own reply (creative! recall: 0.156)
+[14:52:51] Vision used: A red plastic cup with a white rim sits upright on a plain white surface, its cylindrical body featuring horizontal ridges, and a faint watermark reading “shutterstock.com” and “2626086775” at the bottom.
+[14:52:51] mode=vision_reply slot=0 recall=0.156
+[14:53:19] User: describe this [image: carrot.jpg]
+[14:53:23] Vision desc: A single orange carrot with green leafy tops rests diagonally on a plain white background, its tapered shape pointing right, surface marked with faint white vertical lines, and a small brown stem.
+[14:53:32] Frankie (Pond own): I see that orange carrot with its leafy top leaning just so.
+   → Pond chose its own reply (creative! recall: 0.041)
+[14:53:32] Vision used: A single orange carrot with green leafy tops rests diagonally on a plain white background, its tapered shape pointing right, surface marked with faint white vertical lines, and a small brown stem.
+[14:53:32] mode=vision_reply slot=3 recall=0.041
+[14:54:08] User: is this person smiling? [image: smile.jpg]
+[14:54:14] Vision desc: A black-and-white close-up shows a person's mouth slightly open, revealing upper teeth and a thin strand of dental floss between them. The nose is visible above the lips, and faint smoke or.
+[14:54:23] Frankie (Pond own): I can see a few clear details there.
+   → Pond chose its own reply (creative! recall: 0.308)
+[14:54:23] Vision used: A black-and-white close-up shows a person's mouth slightly open, revealing upper teeth and a thin strand of dental floss between them. The nose is visible above the lips, and faint smoke or.
+[14:54:23] mode=vision_reply slot=0 recall=0.308
+[14:54:45] User: describe [image: smile.jpg]
+[14:54:51] Vision desc: A black-and-white close-up shows a person's mouth slightly open, revealing upper teeth and a thin strand of dental floss between them. The nose is visible above the lips, with soft focus on.
+[14:55:00] Frankie (Pond own): I see a smile just barely there.
+   → Pond chose its own reply (creative! recall: 0.023)
+[14:55:00] Vision used: A black-and-white close-up shows a person's mouth slightly open, revealing upper teeth and a thin strand of dental floss between them. The nose is visible above the lips, with soft focus on.
+[14:55:00] mode=vision_reply slot=0 recall=0.023
+[14:55:23] User: that is very good.
+[14:55:31] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.033)
+[14:55:31] mode=open_reply slot=1 recall=0.033
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-16 15:23:12 ===
+
+[15:23:41] User: Tell me about this [image: apple.jpg]
+[15:23:45] Vision desc: A single apple with a red and yellow skin, a short brown stem at its top, sits centered against a plain white background, casting a soft shadow beneath it.
+[15:23:56] Frankie (Pond own): There’s an apple right there — red and yellow skin, a little stem, casting a soft shadow.
+   → Pond chose its own reply (creative! recall: 0.106)
+[15:23:56] Vision used: A single apple with a red and yellow skin, a short brown stem at its top, sits centered against a plain white background, casting a soft shadow beneath it.
+[15:23:56] mode=vision_reply slot=1 recall=0.106
+[15:24:17] User: Tell me about this [image: carrot.jpg]
+[15:24:21] Vision desc: A single orange carrot with green leafy stems at its top, lying diagonally on a plain white background, showing natural surface markings and a brownish root end.
+[15:24:31] Frankie (Pond own): There it is, a single orange carrot with a little green top, pointing like it’s saying something.
+   → Pond chose its own reply (creative! recall: 0.107)
+[15:24:31] Vision used: A single orange carrot with green leafy stems at its top, lying diagonally on a plain white background, showing natural surface markings and a brownish root end.
+[15:24:31] mode=vision_reply slot=1 recall=0.107
+[15:24:59] User: Tell me about this [image: hands.jpg]
+[15:25:05] Vision desc: A robotic hand with white, segmented fingers and glowing teal joints extends from the left, nearly touching a human hand on the right, which has a tan complexion and natural fingernails, both.
+[15:25:16] Frankie (Pond own): I see a robotic hand with glowing teal joints reaching out, fingers almost brushing your hand.
+   → Pond chose its own reply (creative! recall: 0.124)
+[15:25:16] Vision used: A robotic hand with white, segmented fingers and glowing teal joints extends from the left, nearly touching a human hand on the right, which has a tan complexion and natural fingernails, both.
+[15:25:16] mode=vision_reply slot=0 recall=0.124
+[15:25:45] User: Tell me about this
+[15:25:57] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.143)
+[15:25:57] mode=open_reply slot=1 recall=0.143
+[15:26:19] User: tell me about this [image: room.jpg]
+[15:26:23] Vision desc: A modern living room with light gray walls, wooden floors, and a large window with gray curtains. A beige sofa with blue and brown cushions sits near the window.
+[15:26:34] Frankie (Pond own): I see that window, right there — sunlight slipping through.
+   → Pond chose its own reply (creative! recall: 0.158)
+[15:26:34] Vision used: A modern living room with light gray walls, wooden floors, and a large window with gray curtains. A beige sofa with blue and brown cushions sits near the window.
+[15:26:34] mode=vision_reply slot=0 recall=0.158
+[15:26:54] User: tell me about this [image: red-rose.jpg]
+[15:26:57] Vision desc: A single red rose with a green stem and two green leaves stands upright against a plain white background. The rose is fully bloomed, petals layered tightly, and the stem has small.
+[15:27:13] Frankie (Pond own): I see a red rose standing tall on a white background.
+   → Pond chose its own reply (creative! recall: 0.111)
+[15:27:13] Vision used: A single red rose with a green stem and two green leaves stands upright against a plain white background. The rose is fully bloomed, petals layered tightly, and the stem has small.
+[15:27:13] mode=vision_reply slot=0 recall=0.111
+[15:27:30] User: tell me about this [image: smile.jpg]
+[15:27:37] Vision desc: A black-and-white close-up shows a person's mouth slightly open, revealing upper teeth and a thin strand of floss between them. The nose is visible above the lips.
+[15:27:47] Frankie (Pond own): Feels like a quiet moment, right in front of me.
+   → Pond chose its own reply (creative! recall: 0.075)
+[15:27:47] Vision used: A black-and-white close-up shows a person's mouth slightly open, revealing upper teeth and a thin strand of floss between them. The nose is visible above the lips.
+[15:27:47] mode=vision_reply slot=1 recall=0.075
+[15:28:09] User: what color was the carrot?
+[15:28:19] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.324)
+[15:28:19] mode=open_reply slot=0 recall=0.324
+[15:28:32] User: what colour skin did the apple have?
+[15:28:41] Frankie (Pond own): I think apples used to have a nice, soft red skin.
+   → Pond chose its own reply (creative! recall: 0.311)
+[15:28:41] mode=open_reply slot=0 recall=0.311
+[15:28:54] User: what colour was the rose?
+[15:29:03] Frankie (Pond own): I think it was deep pink—like sunshine in the rain.
+   → Pond chose its own reply (creative! recall: 0.294)
+[15:29:03] mode=open_reply slot=0 recall=0.294
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-17 07:51:39 ===
+
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-17 10:32:25 ===
+
+[10:32:49] User: what is this image [image: carrot.jpg]
+[10:32:50] Vision desc: A single orange carrot with green leafy tops rests diagonally on a plain white background, its tapered shape pointing toward the lower right, featuring natural surface markings and a brown stem base.
+[10:33:04] Frankie (Pond own): A simple orange carrot with leafy flair, pointing toward the corner.
+   → Pond chose its own reply (creative! recall: 0.161)
+[10:33:04] Vision used: A single orange carrot with green leafy tops rests diagonally on a plain white background, its tapered shape pointing toward the lower right, featuring natural surface markings and a brown stem base.
+[10:33:04] mode=vision_reply slot=1 recall=0.161
+[10:33:26] User: what is this image [image: room.jpg]
+[10:33:29] Vision desc: A modern living room with light gray walls, wooden floors, and large windows draped with gray curtains. A beige sofa with blue and brown cushions sits near a round wooden coffee table.
+[10:33:44] Frankie (Pond own): I see a living room with soft light and big windows.
+   → Pond chose its own reply (creative! recall: 0.127)
+[10:33:44] Vision used: A modern living room with light gray walls, wooden floors, and large windows draped with gray curtains. A beige sofa with blue and brown cushions sits near a round wooden coffee table.
+[10:33:44] mode=vision_reply slot=1 recall=0.127
+[10:34:01] User: what is this image [image: hands.jpg]
+[10:34:07] Vision desc: A white robotic hand with glowing blue joints extends from the left, its fingers nearly touching a human hand on the right, which has a tan complexion and natural fingernails, both set.
+[10:34:18] Frankie (Pond own): I see a white robotic hand with blue glow reaching out.
+   → Pond chose its own reply (creative! recall: 0.221)
+[10:34:18] Vision used: A white robotic hand with glowing blue joints extends from the left, its fingers nearly touching a human hand on the right, which has a tan complexion and natural fingernails, both set.
+[10:34:18] mode=vision_reply slot=0 recall=0.221
+[10:34:49] User: whit is this image? [image: smile.jpg]
+[10:34:56] Vision desc: A black-and-white close-up shows a person’s mouth slightly open, revealing upper teeth and lips. A thin, white thread, likely dental floss, stretches between the teeth.
+[10:35:06] Frankie (Pond own): I see a mouth open just a bit, teeth peeking out.
+   → Pond chose its own reply (creative! recall: 0.297)
+[10:35:06] Vision used: A black-and-white close-up shows a person’s mouth slightly open, revealing upper teeth and lips. A thin, white thread, likely dental floss, stretches between the teeth.
+[10:35:06] mode=vision_reply slot=0 recall=0.297
+[10:35:22] User: what colour was the carrot?
+[10:35:31] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.310)
+[10:35:31] mode=open_reply slot=0 recall=0.310
+[10:36:14] User: did the carrot have green bits?
+[10:36:23] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.305)
+[10:36:23] mode=open_reply slot=0 recall=0.305
+[10:36:59] User: where was the carrot pointing?
+[10:37:09] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.299)
+[10:37:09] mode=open_reply slot=0 recall=0.299
+[10:37:25] User: what is this image [image: red-rose.jpg]
+[10:37:28] Vision desc: A single red rose with a green stem and two green leaves stands upright against a plain white background. The rose’s petals are tightly curled, and the stem has small thorns.
+[10:37:43] Frankie (Pond own): Oh, that’s a sharp little rose.
+   → Pond chose its own reply (creative! recall: 0.221)
+[10:37:43] Vision used: A single red rose with a green stem and two green leaves stands upright against a plain white background. The rose’s petals are tightly curled, and the stem has small thorns.
+[10:37:43] mode=vision_reply slot=0 recall=0.221
+[10:37:54] User: what colour is the rose?
+[10:38:05] Frankie (Pond own): Feels just right — soft and warm.
+   → Pond chose its own reply (creative! recall: 0.303)
+[10:38:05] mode=open_reply slot=0 recall=0.303
+[10:38:19] User: what colour is the red rose?
+[10:38:29] Frankie (Pond own): Feels just right, doesn’t it?
+   → Pond chose its own reply (creative! recall: 0.322)
+[10:38:29] mode=open_reply slot=0 recall=0.322
+[10:39:05] User: describe the red rose
+[10:39:11] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.000)
+[10:39:11] mode=open_reply slot=-1 recall=0.000
+[10:43:26] User: list the letters you see in this image [image: letters.jpg]
+[10:43:30] Vision desc: This is a standard eye chart with rows of letters decreasing in size from top to bottom. The top row has a single large black “E” on a white background.
+[10:43:45] Frankie (Pond own): The eye chart starts with an E — solid and strong.
+   → Pond chose its own reply (creative! recall: 0.031)
+[10:43:45] Vision used: This is a standard eye chart with rows of letters decreasing in size from top to bottom. The top row has a single large black “E” on a white background.
+[10:43:45] mode=vision_reply slot=1 recall=0.031
+[10:44:14] User: list as many letters from this imag as you can [image: letters.jpg]
+[10:44:17] Vision desc: This is a standard eye chart with rows of letters decreasing in size from top to bottom, starting with a large 'E' and ending with smaller letters like 'P' and 'L'. The.
+[10:44:28] Frankie (Pond own): The eye chart’s got a nice flow, from big to small.
+   → Pond chose its own reply (creative! recall: 0.037)
+[10:44:28] Vision used: This is a standard eye chart with rows of letters decreasing in size from top to bottom, starting with a large 'E' and ending with smaller letters like 'P' and 'L'. The.
+[10:44:28] mode=vision_reply slot=3 recall=0.037
+[10:50:27] User: what does this say [image: note.jpeg]
+[10:50:32] Vision desc: An open notebook with white, horizontally lined pages shows handwritten text in black ink. The text reads, “HELLO FRANKIE, MY NAME IS PETER AND I LIKE THE COLOUR BLUE,” written in capital.
+[10:50:54] Frankie (Pond own): Hello Frankie, my name is Peter and I like the colour blue.
+   → Pond chose its own reply (creative! recall: 0.153)
+[10:50:54] Vision used: An open notebook with white, horizontally lined pages shows handwritten text in black ink. The text reads, “HELLO FRANKIE, MY NAME IS PETER AND I LIKE THE COLOUR BLUE,” written in capital.
+[10:50:54] mode=vision_reply slot=1 recall=0.153
+[10:51:26] User: who was saying hello to you in that note.jpeg file?
+[10:51:35] Frankie (Pond own): I think it was you, waving from that note.
+   → Pond chose its own reply (creative! recall: 0.250)
+[10:51:35] mode=greeting_reply slot=0 recall=0.250
+[10:51:45] User: Yes it was. :)
+[10:51:50] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.000)
+[10:51:50] mode=open_reply slot=-1 recall=0.000
+[11:43:02] User: Today is Tuesday
+[11:43:10] Frankie (Pond own): I think today is Tuesday.
+   → Pond chose its own reply (creative! recall: 0.128)
+[11:43:10] mode=time_reply slot=3 recall=0.128
+[11:47:51] User: It is sunny outside today.
+[11:47:59] Frankie (Pond own): Sunny outside? That’s a good sign.
+   → Pond chose its own reply (creative! recall: 0.150)
+[11:47:59] mode=open_reply slot=3 recall=0.150
+[11:53:10] User: Spring is here and today is warm.
+[11:53:18] Frankie (Pond own): I think today is Tuesday.
+   → Pond chose its own reply (creative! recall: 0.126)
+[11:53:18] mode=time_reply slot=3 recall=0.126
+[11:53:39] User: Not a cloud in the sky.
+[11:53:43] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.000)
+[11:53:43] mode=open_reply slot=-1 recall=0.000
+[11:54:01] User: Do you like the rain?
+[11:54:08] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.276)
+[11:54:08] mode=open_reply slot=0 recall=0.276
+[11:54:32] User: Do you jump into puddles to make a big splash?
+[11:54:40] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.300)
+[11:54:40] mode=open_reply slot=0 recall=0.300
+[11:55:12] User: ask me something please.
+[11:55:21] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.155)
+[11:55:21] mode=open_reply slot=1 recall=0.155
+[11:55:30] User: ask me a question
+[11:55:42] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.182)
+[11:55:42] mode=open_reply slot=0 recall=0.182
+[11:55:54] User: what does that sound like?
+[11:56:04] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.347)
+[11:56:04] mode=open_reply slot=0 recall=0.347
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-18 07:59:37 ===
+
+[08:00:05] User: Describe this imge [image: carrot.jpg]
+[08:00:06] Vision desc: A single orange carrot with green leafy stems at its top, positioned diagonally on a plain white background, featuring faint white vertical lines and a brownish root end.
+[08:00:13] Frankie (Pond own): I see a carrot, orange and sharp, leaning just so on a clean white field.
+   → Pond chose its own reply (creative! recall: 0.000)
+[08:00:13] Vision used: A single orange carrot with green leafy stems at its top, positioned diagonally on a plain white background, featuring faint white vertical lines and a brownish root end.
+[08:00:13] mode=vision_reply slot=-1 recall=0.000
+[08:00:41] User: Describe this image [image: red-rose.jpg]
+[08:00:45] Vision desc: A single red rose with a green stem and two green leaves is centered against a plain white background. The rose’s petals are tightly curled, and the stem has small thorns.
+[08:00:55] Frankie (Pond own): I see a red rose, tight as a smile, with a green stem and two leaves.
+   → Pond chose its own reply (creative! recall: 0.034)
+[08:00:55] Vision used: A single red rose with a green stem and two green leaves is centered against a plain white background. The rose’s petals are tightly curled, and the stem has small thorns.
+[08:00:55] mode=vision_reply slot=0 recall=0.034
+[08:01:12] User: what colour was the rose?
+[08:01:21] Frankie (Pond own): I think that rose was a soft blush.
+   → Pond chose its own reply (creative! recall: 0.294)
+[08:01:21] mode=open_reply slot=0 recall=0.294
+[08:01:32] User: Wht colour was the carrot?
+[08:01:48] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.315)
+[08:01:48] mode=open_reply slot=0 recall=0.315
+[08:02:02] User: What colour is the carrot?
+[08:02:12] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.295)
+[08:02:12] mode=open_reply slot=0 recall=0.295
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-18 08:12:02 ===
+
+[08:12:22] User: describe this image [image: carrot.jpg]
+[08:12:25] Vision desc: A single orange carrot with green leafy tops rests diagonally on a plain white background, its tapered shape pointing right, showing natural surface markings and a brown root end.
+[08:12:32] Frankie (Pond own): A single orange carrot, leafy and honest, leaning into the white space.
+   → Pond chose its own reply (creative! recall: 0.087)
+[08:12:32] Vision used: A single orange carrot with green leafy tops rests diagonally on a plain white background, its tapered shape pointing right, showing natural surface markings and a brown root end.
+[08:12:32] mode=vision_reply slot=3 recall=0.087
+[08:12:45] User: What colour is the carrot?
+[08:12:55] Frankie (Pond own): Feels just right, doesn’t it?
+   → Pond chose its own reply (creative! recall: 0.295)
+[08:12:55] mode=open_reply slot=0 recall=0.295
+[08:13:09] User: What colour was the carrot?
+[08:13:18] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.310)
+[08:13:18] mode=open_reply slot=0 recall=0.310
+[08:13:28] User: clean pond
+[08:13:41] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.041)
+[08:13:41] mode=open_reply slot=3 recall=0.041
+[08:13:53] User: what colour is the carrot?
+[08:14:06] Frankie (fallback): I'm here and listening.
+   → Pond used fallback (recall: 0.295)
+[08:14:06] mode=open_reply slot=0 recall=0.295
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-18 08:24:33 ===
+
+[08:25:41] User: describe this image
+[08:25:45] Frankie (Pond own): Oh, that one. Feels familiar, like a memory you didn’t know you’d been holding.
+ → Pond chose its own reply (creative! recall: 0.000)
+[08:25:45] mode=open_reply slot=-1 recall=0.000
+[08:25:45] Error: 'FrankieState' object has no attribute 'chat_history'
+[08:26:13] User: describe this image [image: red-rose.jpg]
+[08:26:17] Vision desc: A single red rose with tightly curled petals stands upright, its green stem bearing two small green leaves, one near the base and one midway up, against a plain white background with.
+[08:26:24] Frankie (Pond own): A red rose, petals curled tight, standing tall on a green stem.
+ → Pond chose its own reply (creative! recall: 0.000)
+[08:26:24] Vision used: A single red rose with tightly curled petals stands upright, its green stem bearing two small green leaves, one near the base and one midway up, against a plain white background with.
+[08:26:24] mode=vision_reply slot=-1 recall=0.000
+[08:26:32] User: What colour is the carrot?
+[08:26:47] Frankie (Pond own): Oh, carrots? Usually orange, I think.
+ → Pond chose its own reply (creative! recall: 0.295)
+[08:26:47] mode=open_reply slot=0 recall=0.295
+[08:26:57] User: what colour was the rose?
+[08:27:07] Frankie (Pond own): I think it was blush — soft and warm.
+ → Pond chose its own reply (creative! recall: 0.294)
+[08:27:07] mode=open_reply slot=0 recall=0.294
+
+=== NEW SESSION VISION - 2026-03-18 08:30:11 ===
+
+[08:30:33] User: describe this image [image: carrot.jpg]
+[08:30:37] Vision desc: A single orange carrot with green leafy tops rests diagonally on a plain white background, its tapered shape pointing right, surface showing faint white vertical lines and a brown root end.
+[08:30:44] Frankie (Pond own): I see a carrot, orange and sharp, leaning just so.
+ → Pond chose its own reply (creative! recall: 0.000)
+[08:30:44] Vision used: A single orange carrot with green leafy tops rests diagonally on a plain white background, its tapered shape pointing right, surface showing faint white vertical lines and a brown root end.
+[08:30:44] mode=vision_reply slot=-1 recall=0.000
+[08:31:05] User: describe this image [image: red-rose.jpg]
+[08:31:09] Vision desc: A single red rose with a green stem and two green leaves stands upright against a plain white background. The rose is fully bloomed, its petals layered and deep crimson.
+[08:31:13] Frankie (Pond own): Oh, there’s a rose — bright red, standing tall on a green stem.
+ → Pond chose its own reply (creative! recall: 0.000)
+[08:31:13] Vision used: A single red rose with a green stem and two green leaves stands upright against a plain white background. The rose is fully bloomed, its petals layered and deep crimson.
+[08:31:13] mode=vision_reply slot=-1 recall=0.000
+[08:31:27] User: what colour was the carrot?
+[08:31:42] Frankie (Pond own): Wasn’t it always that colour? Like a warm hello.
+ → Pond chose its own reply (creative! recall: 0.310)
+[08:31:42] mode=open_reply slot=0 recall=0.310
+[08:31:53] User: what colour was the rose?
+[08:32:05] Frankie (Pond own): Feels just right, doesn’t it?
+ → Pond chose its own reply (creative! recall: 0.294)
+[08:32:05] mode=open_reply slot=0 recall=0.294
+[08:32:24] User: what colour was the carrot?
+[08:32:34] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.310)
+[08:32:34] mode=open_reply slot=0 recall=0.310
+[08:32:42] User: what colour was the rose/
+[08:32:52] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.167)
+[08:32:52] mode=open_reply slot=1 recall=0.167
+[08:33:07] User: what colour was the rose?
+[08:33:16] Frankie (Pond own): I think that rose was a soft blush.
+ → Pond chose its own reply (creative! recall: 0.294)
+[08:33:16] mode=open_reply slot=0 recall=0.294
+[08:33:42] User: describe this image [image: room.jpg]
+[08:33:45] Vision desc: A modern living room features a light gray sofa with blue and brown cushions, a round wooden coffee table, and a gray tufted armchair on wooden legs. A chandelier hangs above, and.
+[08:33:55] Frankie (Pond own): I see a cozy living room with that soft gray sofa and bright blue cushions.
+ → Pond chose its own reply (creative! recall: 0.000)
+[08:33:55] Vision used: A modern living room features a light gray sofa with blue and brown cushions, a round wooden coffee table, and a gray tufted armchair on wooden legs. A chandelier hangs above, and.
+[08:33:55] mode=vision_reply slot=-1 recall=0.000
+[08:34:08] User: How many items are in the image?
+[08:34:17] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.334)
+[08:34:17] mode=open_reply slot=0 recall=0.334
+[08:34:38] User: name a item found in the room image
+[08:34:44] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.000)
+[08:34:44] mode=open_reply slot=-1 recall=0.000
+[08:35:14] User: name a item of furniture in image - room.jpg.
+[08:35:20] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.000)
+[08:35:20] mode=open_reply slot=-1 recall=0.000
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-18 08:37:15 ===
+
+[08:38:07] User: describe this image [image: carrot.jpg]
+[08:38:10] Vision desc: A single, whole carrot with orange skin, light green leafy top, and tapered shape lies diagonally on a plain white background, casting a soft shadow beneath it.
+[08:38:17] Frankie (Pond own): There it is — one solid orange carrot, angled like it’s leaning into the light.
+ → Pond chose its own reply (creative! recall: 0.000)
+[08:38:17] Vision used: A single, whole carrot with orange skin, light green leafy top, and tapered shape lies diagonally on a plain white background, casting a soft shadow beneath it.
+[08:38:17] mode=vision_reply slot=-1 recall=0.000
+[08:38:50] User: describe this image [image: room.jpg]
+[08:38:54] Vision desc: A modern living room features a beige sofa with blue and brown cushions, a round wooden coffee table, and a gray tufted armchair. A black chandelier hangs above, while large windows with.
+[08:39:05] Frankie (Pond own): I see a cozy living room with that soft beige sofa and those blue and brown cushions.
+ → Pond chose its own reply (creative! recall: 0.000)
+[08:39:05] Vision used: A modern living room features a beige sofa with blue and brown cushions, a round wooden coffee table, and a gray tufted armchair. A black chandelier hangs above, while large windows with.
+[08:39:05] mode=vision_reply slot=-1 recall=0.000
+[08:39:17] User: what colour was the carrot?
+[08:39:34] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.309)
+[08:39:34] mode=open_reply slot=0 recall=0.309
+[08:39:55] User: what colour was the carrot?
+[08:40:06] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.309)
+[08:40:06] mode=open_reply slot=0 recall=0.309
+[08:40:28] User: name a item of furniture from room.jpg
+[08:40:34] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.000)
+[08:40:34] mode=open_reply slot=-1 recall=0.000
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-18 08:42:51 ===
+
+[08:43:22] User: describe [image: carrot.jpg]
+[08:43:26] Vision desc: A single orange carrot with green leafy stems at its top, positioned diagonally on a plain white background, featuring natural surface markings and a visible root base.
+[08:43:34] Frankie (Pond own): That little carrot, rooted in the white, looking right at me.
+ → Pond chose its own reply (creative! recall: 0.000)
+[08:43:34] Vision used: A single orange carrot with green leafy stems at its top, positioned diagonally on a plain white background, featuring natural surface markings and a visible root base.
+[08:43:34] mode=vision_reply slot=-1 recall=0.000
+[08:43:45] User: describe [image: room.jpg]
+[08:43:49] Vision desc: A modern living room with light gray walls, wooden floors, and a beige sofa adorned with blue and brown cushions. A round wooden coffee table sits on a light rug.
+[08:43:59] Frankie (Pond own): That wooden table and blue cushions? Feels familiar.
+ → Pond chose its own reply (creative! recall: 0.000)
+[08:43:59] Vision used: A modern living room with light gray walls, wooden floors, and a beige sofa adorned with blue and brown cushions. A round wooden coffee table sits on a light rug.
+[08:43:59] mode=vision_reply slot=-1 recall=0.000
+[08:44:15] User: what colour was the carrot?
+[08:44:25] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.237)
+[08:44:25] mode=open_reply slot=0 recall=0.237
+[08:44:39] User: name a item from room.jpg
+[08:44:49] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.000)
+[08:44:49] mode=open_reply slot=-1 recall=0.000
+[08:45:05] User: what colour was the carrot?
+[08:45:14] Frankie (Pond own): I think it was a bright orange, warm and alive.
+ → Pond chose its own reply (creative! recall: 0.237)
+[08:45:14] mode=open_reply slot=0 recall=0.237
+[08:45:24] User: name a item from room.jpg
+[08:45:30] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.000)
+[08:45:30] mode=open_reply slot=-1 recall=0.000
+[08:45:53] User: describe image room.jpg
+[08:46:02] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.000)
+[08:46:02] mode=open_reply slot=-1 recall=0.000
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-18 08:48:47 ===
+
+[08:48:58] User: describe [image: carrot.jpg]
+[08:49:02] Vision desc: A single orange carrot with green leafy tops rests diagonally on a plain white background, its tapered shape pointing right, surface showing faint white vertical lines and a brown root end.
+[08:49:06] Frankie (Pond own): A single orange carrot, steady on the white, like it’s saying hello.
+ → Pond chose its own reply (creative! recall: 0.000)
+[08:49:06] Vision used: A single orange carrot with green leafy tops rests diagonally on a plain white background, its tapered shape pointing right, surface showing faint white vertical lines and a brown root end.
+[08:49:06] mode=vision_reply slot=-1 recall=0.000
+[08:49:17] User: describe [image: room.jpg]
+[08:49:20] Vision desc: A modern living room with light gray walls, wooden floors, and large windows with gray curtains. A white sofa with blue and brown cushions sits near a round wooden coffee table.
+[08:49:27] Frankie (Pond own): I see that living room — clean and warm.
+ → Pond chose its own reply (creative! recall: 0.000)
+[08:49:27] Vision used: A modern living room with light gray walls, wooden floors, and large windows with gray curtains. A white sofa with blue and brown cushions sits near a round wooden coffee table.
+[08:49:27] mode=vision_reply slot=-1 recall=0.000
+[08:49:37] User: what colour is the carrot?
+[08:49:52] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.268)
+[08:49:52] mode=open_reply slot=0 recall=0.268
+[08:50:09] User: what colour is the carrot?
+[08:50:19] Frankie (Pond own): Oh, Peter, what colour is the carrot?
+ → Pond chose its own reply (creative! recall: 0.268)
+[08:50:19] mode=open_reply slot=0 recall=0.268
+[08:50:32] User: You tell me
+[08:50:48] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.161)
+[08:50:48] mode=open_reply slot=1 recall=0.161
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-18 08:52:25 ===
+
+[08:52:45] User: describe [image: carrot.jpg]
+[08:52:48] Vision desc: A single orange carrot with green leafy stems at its top, positioned diagonally on a plain white background, featuring natural surface markings and a visible root base.
+[08:52:55] Frankie (Pond own): A single orange carrot with a green stem, rooted in plain sight.
+ → Pond chose its own reply (creative! recall: 0.000)
+[08:52:55] Vision used: A single orange carrot with green leafy stems at its top, positioned diagonally on a plain white background, featuring natural surface markings and a visible root base.
+[08:52:55] mode=vision_reply slot=-1 recall=0.000
+[08:53:06] User: what colour is the carrot?
+[08:53:15] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.318)
+[08:53:15] mode=open_reply slot=0 recall=0.318
+[08:53:29] User: what colour is the carrot?
+[08:53:39] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.318)
+[08:53:39] mode=open_reply slot=0 recall=0.318
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-18 09:31:15 ===
+
+[09:31:29] User: describe [image: carrot.jpg]
+[09:31:32] Vision desc: A single orange carrot with green leafy stems sits diagonally on a plain white background, its tapered shape pointing right, showing natural surface markings and a brown root end.
+[09:31:42] Frankie (Pond own): I see that orange carrot, pointing right with a little green stem.
+ → Pond chose its own reply (creative! recall: 0.000)
+[09:31:42] Vision used: A single orange carrot with green leafy stems sits diagonally on a plain white background, its tapered shape pointing right, showing natural surface markings and a brown root end.
+[09:31:42] mode=vision_reply slot=-1 recall=0.000
+[09:32:06] User: what colour is the carrot?
+[09:32:15] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.309)
+[09:32:15] mode=open_reply slot=0 recall=0.309
+[09:32:32] User: what colour is the carrot?
+[09:32:50] Frankie (fallback): I'm here and listening.
+ → Pond used fallback (recall: 0.309)
+[09:32:50] mode=open_reply slot=0 recall=0.309
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-18 09:35:55 ===
+
+[09:36:04] User: describe [image: carrot.jpg]
+[09:36:07] Vision desc: A single, orange carrot with a tapered shape lies diagonally, its green leafy top pointing left. The carrot’s surface has faint white vertical lines.
+[09:36:18] Frankie (Pond own): I see that carrot — orange and a little wiggly, leaf pointing left.
+ → Pond chose its own reply (creative! recall: 0.019)
+[09:36:18] Vision used: A single, orange carrot with a tapered shape lies diagonally, its green leafy top pointing left. The carrot’s surface has faint white vertical lines.
+[09:36:18] mode=vision_reply slot=3 recall=0.019
+[09:36:46] User: what colour is the crrot?
+[09:36:53] Error: 'LMStudioBackend' object has no attribute 'generate'
+[09:37:16] User: what colour is the carrot?
+[09:37:24] Error: 'LMStudioBackend' object has no attribute 'generate'
+[09:37:45] User: what colour is the carrot?
+[09:37:58] Error: 'LMStudioBackend' object has no attribute 'generate'
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-03-18 09:40:23 ===
+
+[09:40:37] User: describe [image: carrot.jpg]
+[09:40:41] Vision desc: A single orange carrot with green leafy stems sits diagonally on a white background, its tapered shape pointing right, featuring faint white vertical lines and a brown root end where the stems.
+[09:40:48] Frankie (Pond own): I see that orange carrot, pointing right with a little green stem.
+ → Pond chose its own reply (creative! recall: 0.000)
+[09:40:48] Vision used: A single orange carrot with green leafy stems sits diagonally on a white background, its tapered shape pointing right, featuring faint white vertical lines and a brown root end where the stems.
+[09:40:48] mode=vision_reply slot=-1 recall=0.000
+[09:41:10] User: what colour is the carrot?
+[09:41:26] Frankie (Pond own): The carrot is bright orange.
+ → Pond chose its own reply (creative! recall: 0.339)
+[09:41:26] mode=open_reply slot=0 recall=0.339
+[09:41:50] User: what colour is it's stem?
+[09:42:10] Frankie (Pond own): Green, just like a fresh leafy shoot.
+ → Pond chose its own reply (creative! recall: 0.325)
+[09:42:10] mode=open_reply slot=0 recall=0.325
+
+=== SESSION END ===
+
+=== NEW SESSION VISION - 2026-04-04 11:26:14 ===
+
+
+=== SESSION END ===

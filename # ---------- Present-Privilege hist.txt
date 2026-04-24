@@ -1,0 +1,14 @@
+# ---------- Present-Privilege history regimes ----------
+HISTORY_REGIMES = [
+    {"family": "all_factual",        "mode": "single_family",      "prompt_family": "factual"},
+    {"family": "all_distress",       "mode": "single_family",      "prompt_family": "distress"},
+    {"family": "all_social",         "mode": "single_family",      "prompt_family": "social"},
+    {"family": "all_novel",          "mode": "single_family",      "prompt_family": "novel"},
+    {"family": "all_quiet",          "mode": "single_family",      "prompt_family": "quiet"},
+    {"family": "alternating_blocks", "mode": "alternating_blocks"},
+    {"family": "long_quiet_stretch", "mode": "long_quiet_stretch"},
+    {"family": "mixed_random",       "mode": "mixed_random"},
+    {"family": "all_qs_control", "mode": "single_family", "prompt_family": "qs_control"},
+    {"family": "all_cq_probe",  "mode": "single_family", "prompt_family": "cq_probe"},
+    {"family": "all_pe_probe",  "mode": "single_family", "prompt_family": "pe_probe"},
+]

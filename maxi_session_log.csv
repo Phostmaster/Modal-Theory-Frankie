@@ -1,0 +1,4 @@
+Log_Type,Timestamp,Session_Turns,Fallback_Pct,Avg_Top_Score,Avg_Reply_Options,Real_Questions,Real_Questions_Pct,Avg_Mem,LLM_Chosen,Maxi_Chosen,Vision_Turns,Avg_Vision_Match,Identity_Hits,Time_Corrections,OCR_Reads
+Maxi_Session_Log,2026-03-26_11:07,6,17,4.058,4.0,0,0,0.222,2,4,0,0.000,0,1,0
+Maxi_Session_Log,2026-03-26_11:28,27,67,3.915,4.6,0,0,0.203,6,21,0,0.000,0,3,0
+Maxi_Session_Log,2026-03-27_15:08,12,42,3.961,4.3,0,0,0.144,6,6,0,0.000,0,1,0

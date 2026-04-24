@@ -1,0 +1,19 @@
+Knob;Original;Min;Max;;What;it;changes;Quick;fix;if…;;;;;;;;;
+ALPHA_IN;0.12;0.05;0.25;;Strength;of;new;text;ripples;injecting;into;the;field;Too;weak;reaction;?;?;
+LAMBDA_DIFF;0.18;0.1;0.3;;How;much;the;field;spreads;out;(smoothness);Noisy;field;?;?;;;;
+LAMBDA_DAMP;0.03;0.01;0.08;;How;quickly;the;field;calms;down;Too;chaotic;?;?;;;;;
+LAMBDA_LOCK;0.1;0.05;0.2;;Strength;of;phase-locking;(clear;waves);Messy;phase;?;?;;;;;;
+LAMBDA_CHAN;0.04;0.02;0.1;;How;strongly;winning;channel;biases;the;field;Weak;personality;?;?;;;;
+SOFTMAX_BETA;3;1.5;6;;How;sharply;the;system;picks;a;winner;Too;many;“maybe”;?;?;;;
+GAIN_LR;0.02;0.005;0.05;;How;fast;gains;change;after;each;turn;Changes;too;slow;?;?;;;
+USAGE_RHO;0.05;0.02;0.15;;How;quickly;usage;memory;fades;Forgets;too;fast;?;?;;;;;How quickly Frankie updates his sense of which channels he’s been using. Higher = more weight on recent behaviour, less on old behaviour.
+GAIN_SOFT_TARGET;1;0.8;1.3;;Ideal;average;gain;the;system;gently;nudges;toward;Gains;drifting;badly;?;adjust;;
+GAIN_SOFT_RATE;0.01;0.002;0.03;;Strength;of;the;gentle;pull;back;to;target;Sudden;spikes/drops;?;?;;;
+GAIN_FLOOR;0.3;0.1;0.6;;Absolute;lowest;any;gain;can;go;(safety);Channels;disappearing;?;?;;;;
+GAIN_CEIL;3;2;4;;Absolute;highest;any;gain;can;go;(safety);One;channel;dominating;?;?;;;
+WAKE_PLASTICITY;0.004;0.001;0.012;;How;fast;templates;learn;during;normal;chat;Too;slow/fast;learning;?;adjust;;;
+DREAM_PLASTICITY;0.008;0.003;0.02;;How;strongly;templates;reshape;during;dreaming;Weak;overnight;change;?;?;;;;
+LATERAL_INHIBITION_STRENGTH;0.002;0.0005;0.006;;How;much;non-winners;are;pushed;away;Channels;too;similar;?;?;;;;
+DREAM_TURNS;8;4;15;;How;many;dream;cycles;after;each;session;Dreaming;too;short/long;?;adjust;;;
+REPLAY_BUFFER_SIZE;20;8;40;;How;many;memories;kept;for;dreaming;Not;enough;memory;?;?;;;;
+REPLAY_TURNS;6;3;12;;How;many;memories;replayed;per;dream;Dreaming;too;shallow;?;?;;;;
