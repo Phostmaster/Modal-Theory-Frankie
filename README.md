@@ -1,7 +1,7 @@
 Frankie v7
 Neuro-Symbolic Conversational Architecture with Dynamic Compute Allocation, Selective Memory, and Measured Efficiency Gains
 
-Overview
+Overview:
 Frankie is a neuro-symbolic conversational system that treats compute, memory, and internal processing as privileged resources. Instead of the standard “dump everything into context every turn” approach, Frankie uses a lightweight controller to route turns, selectively retrieve memory, and activate expensive operations only when they are genuinely needed.
 
 The architecture was designed and benchmarked to answer one practical question:
@@ -25,8 +25,6 @@ Frankie consistently delivers more natural continuity and tone while using notic
 
 Current Status
 v7 is the latest frozen version. It includes internal MT/GCF-inspired modifications (phase-weighted attention and hidden-state evolution) while retaining the proven external controller from v5/v6.
-
-All previous versions (v5, v6, v6.1) are archived in separate branches for reference.
 
 Repository Purpose
 This repo serves as the public engineering record of Frankie. It contains:
